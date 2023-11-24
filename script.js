@@ -1,3 +1,5 @@
+// Use a destructuring assignment with the rest syntax to emulate the behavior of Array.prototype.slice(). removeFirstTwo() should return a sub-array of the original array list with the first two elements omitted.
+
 const removeFirstTwo = (list) => {
   const [, , ...listed] = list;
   return listed;
